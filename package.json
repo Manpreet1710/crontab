@@ -1,0 +1,32 @@
+{
+  "name": "netlifyapis",
+  "version": "1.0.0",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
+    "cron-time-generator": "^1.2.0",
+    "cronstrue": "^1.117.0",
+    "netlify-lambda": "^2.0.14",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManpreetChoudhary/word-games-theme.git"
+  },
+  "keywords": [
+    "words",
+    "with",
+    "letters"
+  ],
+  "author": "manpreet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManpreetChoudhary/word-games-theme/issues"
+  },
+  "homepage": "https://github.com/ManpreetChoudhary/word-games-theme#readme"
+}
