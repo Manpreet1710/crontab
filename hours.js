@@ -4,7 +4,7 @@ let table = document.querySelector('#table')
 
 const getData = async () => {
   try {
-    const response = await fetch(`http://127.0.0.1:9000/hours`)
+    const response = await fetch(`/.netlify/functions/hours`)
     const data = await response.json()
 
     data.map((item) => {
